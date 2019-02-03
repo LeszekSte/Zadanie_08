@@ -5,9 +5,5 @@ public class Main2 {
 
         int number = 1234;
         System.out.println("Suma cyfr z liczby "+ number+ " wynosi " + Calc.sumDigits(number));
-
     }
-
-
-
 }

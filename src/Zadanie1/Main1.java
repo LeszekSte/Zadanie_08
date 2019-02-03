@@ -13,7 +13,6 @@ public class Main1 {
         Main1.printDoubleTab(tab1);
      //Wersja z Arrays.toString - myślę że "prawie" dobra
         Main1.podwojonaTablica(tab1);
-
     }
 
     static void printDoubleTab(int []tab){
@@ -26,7 +25,6 @@ public class Main1 {
         System.out.println(num1+num2);
     }
 
-
     static void podwojonaTablica(int[] tab) {
         int[] tab2 = new int [2*tab.length];
         for (int i = 0; i < tab.length; i++) {
@@ -34,7 +32,6 @@ public class Main1 {
             tab2[i + tab.length] = tab[tab.length - 1 - i];
         }
         System.out.println(Arrays.toString(tab2));
-
     }
 
     static int[] rand(int[] tab) {
@@ -42,9 +39,6 @@ public class Main1 {
         for (int i = 0; i < tab.length; i++) {
             tab[i] = random.nextInt(10);
         }
-
         return tab;
     }
-
-
 }
